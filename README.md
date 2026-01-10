@@ -45,9 +45,9 @@ The full project report is available in the `report` folder.
 
 2. Open the notebook using Jupyter Notebook or JupyterLab:
    ```bash
-   jupyter notebook Proiect_SBC.ipynb
-   ```markdown
+jupyter notebook lung_sound_classification.ipynb
+
 > Tested using Anaconda (Jupyter Notebook environment).
-    rename ->lung_sound_classification.ipynb
+   
 
 
