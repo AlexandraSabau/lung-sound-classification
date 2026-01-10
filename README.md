@@ -35,3 +35,17 @@ Healthy, COPD, Pneumonia, URTI, Bronchiectasis and Bronchiolitis.
 ## Documentation
 The full project report is available in the `report` folder.
 
+## How to Run
+1. Install dependencies:
+   - numpy
+   - librosa
+   - tensorflow
+   - matplotlib
+   - scikit-learn
+
+2. Open the notebook using Jupyter Notebook or JupyterLab:
+   ```bash
+   jupyter notebook Proiect_SBC.ipynb
+    rename ->lung_sound_classification.ipynb
+
+
