@@ -47,7 +47,7 @@ The full project report is available in the `report` folder.
    ```bash
 jupyter notebook lung_sound_classification.ipynb
 
-> Tested using Anaconda (Jupyter Notebook environment).
+
    
 
 
