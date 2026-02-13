@@ -1,3 +1,8 @@
+
+from pathlib import Path
+
+
+
 import os, json
 import numpy as np
 import streamlit as st
@@ -5,9 +10,12 @@ import tensorflow as tf
 
 from pipeline import wav_to_model_input
 
-MODEL_PATH = "lung_cnn_model.keras"
-CLASSES_PATH = "classes.json"
-SAMPLES_DIR = "samples"
+
+BASE = Path(__file__).parent
+MODEL_PATH = str(BASE / "lung_cnn_model.keras")
+CLASSES_PATH = str(BASE / "classes.json")
+SAMPLES_DIR = str(BASE / "samples")
+
 
 @st.cache_resource
 def load_model():
