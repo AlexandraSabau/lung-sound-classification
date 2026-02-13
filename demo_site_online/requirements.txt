@@ -1,8 +1,7 @@
-streamlit==1.41.1
-tensorflow==2.15.0
-keras==2.15.0
-librosa==0.10.2.post1
-numpy==1.26.4
+streamlit==1.54.0
+tensorflow==2.21.0
+librosa==0.10.1
+numpy
 soundfile==0.12.1
-scikit-learn==1.4.2
-pandas==2.2.2
+scikit-learn
+pandas
