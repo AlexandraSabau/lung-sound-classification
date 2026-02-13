@@ -19,7 +19,7 @@ SAMPLES_DIR = str(BASE / "samples")
 
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model(MODEL_PATH, compile=False)
+    return tf.keras.models.load_model(MODEL_PATH, compile=False, safe_mode=False)
 
 def load_classes():
     with open(CLASSES_PATH, "r", encoding="utf-8") as f:
