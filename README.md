@@ -44,7 +44,7 @@ The full project report is available in the `report` folder.
    - scikit-learn
 
 2. Open the notebook using Jupyter Notebook or JupyterLab:
-```bash
+
 jupyter notebook lung_sound_classification.ipynb
 
 ## Demo (Streamlit UI) – Screenshots
